@@ -1,7 +1,7 @@
 const Team = () => {
 return (
     <div>
-        <h2>About Elizabeth</h2>
+        <h1>About Elizabeth</h1>
     </div>
 )
 
