@@ -2,6 +2,7 @@ import { Banner } from "../components/banner";
 import Link from "next/link";
 import Image from "next/image";
 import { YouTubeEmbed } from "@next/third-parties/google";
+import { BottomNavigation } from "../components/bottomNavigation";
 
 const About = () => {
     return (
@@ -83,6 +84,9 @@ const About = () => {
                     </div>
                 </section>
                 
+            </div>
+            <div>
+                <BottomNavigation />
             </div>
         </div>
     );
