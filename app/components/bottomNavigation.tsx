@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const BottomNavigation = () => {
   return (
-    <div className='px-64'>
+    <div className='px-64 py-16'>
       <div className='flex justify-around'>
         <Link href='/consultations'>
           <Image
