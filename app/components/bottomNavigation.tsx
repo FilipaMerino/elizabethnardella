@@ -1,14 +1,12 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
-type BottomNavigationProps = {
-  src1: string;
-  alt1: string;
-  src2: string;
-  alt2: string;
-};
+export const BottomNavigation = () => {
+  const router = useRouter();
 
-export const BottomNavigation = (props: BottomNavigationProps) => {
   return (
     <div className='px-64 py-16'>
       <div className='flex justify-around'>
@@ -17,17 +15,21 @@ export const BottomNavigation = (props: BottomNavigationProps) => {
             alt=''
             width={200}
             height={200}
-            src={props.src1}
-            alt={props.alt1}
+            src={
+              router.pathname === '/consultations'
+                ? 'meet_elizabeth.svg'
+                : '/inPersonConsultations.svg'
+            }
+            alt=''
             className='transition-transform duration-500 ease-in-out transform hover:scale-110'
           />
         </Link>
         <Link href='/consultations'>
           <Image
-            alt={props.alt2}
+            alt=''
             width={200}
             height={200}
-            src={props.src2}
+            src='/virtualConsultations.svg'
             className='transition-transform duration-500 ease-in-out transform hover:scale-110'
           />
         </Link>
