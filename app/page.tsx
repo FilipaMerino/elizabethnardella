@@ -63,6 +63,35 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section id='whyChooseUs' className='bg-white'>
+        <div className='flex gap-64'>
+          <div className='flex flex-col items-center justify-center'>
+            <Image src='/Understood.png' width={100} height={100} alt='' />
+            <h3 className='mb-2'>Be Understood</h3>
+            <p className='text-center'>
+              We welcome people from all backgrounds and beliefs. You deserve to
+              feel understood.
+            </p>
+          </div>
+          <div className='flex flex-col items-center justify-center'>
+            <Image src='/Clarity.png' width={100} height={100} alt='' />
+            <h3 className='mb-2'>Get Clarity</h3>
+            <p className='text-center'>
+              Understanding the intricacies of our minds, helps us be the best
+              versions of ourselves.
+            </p>
+          </div>
+          <div className='flex flex-col items-center justify-center'>
+            <Image src='/icons.png' width={100} height={100} alt='' />
+            <h3 className='mb-2'>Move Forward</h3>
+            <p className='text-center'>
+              Build the skills and awareness you need to find and take your next
+              steps.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
