@@ -31,3 +31,30 @@ body {
     text-wrap: balance;
   }
 }
+
+h1{
+  font-size: 3.75rem;
+  line-height: 1;
+  padding-bottom:  2.5rem;
+  color:#A94250
+}
+
+h2{
+  color:#A94250;
+  padding-bottom: 0.75rem;
+  font-size: 48px!important;
+  line-height: 1;
+}
+
+
+h2:hover{
+  color:#219C90
+}
+
+section{
+ height: 30rem;
+ display: flex;
+ justify-content: center;
+}
+
+
