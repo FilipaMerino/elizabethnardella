@@ -5,7 +5,7 @@ import { PrimaryButton } from './components/primaryButton';
 export default function Home() {
   return (
     <main>
-      <div className='flex min-h-screen flex-col items-center justify-between'>
+      <div className='flex flex-col items-center'>
         <Banner
           src='/homeBanner.svg'
           bannerQuote='Creative Perspectives to Healing'
