@@ -45,7 +45,7 @@ const About = () => {
 
                 <div className="flex items-center p-10 g-10 pl-64 pr-64">
                     <div className="flex flex-col justify-center p-10">
-                        <h2 className="text-5xl pb-2 text-[#A94250]">Elizabeth Unplugged</h2>
+                        <h2>Elizabeth Unplugged</h2>
                         <h3 className="text-3xl font-light mb-10">A Look Inside Elizabeth's World</h3>
                         <span className="mr-60">
                             I’m thrilled to share a bit of my world with you.
@@ -73,7 +73,7 @@ const About = () => {
                             </Link>
                         </div>
                          <div className="flex flex-col justify-center p-10">
-                            <h2 className="text-5xl pb-10 text-[#A94250] hover:text-[#219C90]">
+                            <h2>
                                 <Link href="/about/lyon">Meet Lyon</Link>
                             </h2>
                             <span className="mr-40">
