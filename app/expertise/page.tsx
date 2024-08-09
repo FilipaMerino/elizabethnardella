@@ -5,9 +5,7 @@ const Expertise = () => {
   return (
     <div>
       <Banner src='/bannerExpertise.jpg' bannerQuote='Areas of Expertise' />
-      <section
-        id='yourJourney'
-        className='px-64 flex flex-col justify-center h-[30rem]'>
+      <section id='yourJourney' className='px-64 flex flex-col justify-center'>
         <div>
           {/* <h1> THIS NEEDS A SEO TITLE</h1> */}
           <h2>Your Journey</h2>
