@@ -41,11 +41,11 @@ export default function Home() {
               the <strong>connection</strong> between <strong>mind</strong> and{' '}
               <strong>body</strong>. We will use mindful movement and body
               awareness to help you work through your emotions comfortably and
-              effectively
+              effectively.
             </p>
             <p className='text-sm italic'>
               If you feel like this approach resonates with you, book your
-              session. Let's start this beautiful journey together
+              session. Let's start this beautiful journey together.
             </p>
             <PrimaryButton
               name='Book Your Session Now'
