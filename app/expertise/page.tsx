@@ -5,7 +5,7 @@ const Expertise = () => {
   return (
     <div>
       <Banner src='/bannerExpertise.jpg' bannerQuote='Areas of Expertise' />
-      <section id='yourJourney' className='px-64 flex flex-col justify-center'>
+      <section id='yourJourney' className='flex-col'>
         <div>
           {/* <h1> THIS NEEDS A SEO TITLE</h1> */}
           <h2>Your Journey</h2>
@@ -39,10 +39,8 @@ const Expertise = () => {
         </div>
       </section>
 
-      <section
-        id='serviceSomaticTherapy'
-        className='px-64 bg-white h-[30rem] flex items-center '>
-        <div id='somaticTherapy' className='flex items-center'>
+      <section id='serviceSomaticTherapy' className='bg-white'>
+        <div id='somaticTherapy'>
           <div className='flex flex-col jsutify-center  flex-1'>
             <h2>
               <a href='/expertise/somatictherapy'>Somatic Therapy</a>
@@ -78,9 +76,7 @@ const Expertise = () => {
         </div>
       </section>
 
-      <section
-        id='serviceWomensCounselling'
-        className='px-64 h-[30rem] flex items-center'>
+      <section id='serviceWomensCounselling'>
         <div id='WomensCounselling' className='flex items-center'>
           <div className='flex flex-1'>
             <h2>
@@ -128,9 +124,9 @@ const Expertise = () => {
         </div>
       </section>
 
-      <section id='serviceDatingAndRelationships' className='px-64 bg-white'>
+      <section id='serviceDatingAndRelationships' className='bg-white'>
         <div id='datingAndRelationships' className='flex items-center'>
-          <div className='flex  flex-1'>
+          <div className='flex flex-1'>
             <h2>
               <a href='/expertise/datingandrelationships'>
                 Dating & Relationships
@@ -165,9 +161,7 @@ const Expertise = () => {
         </div>
       </section>
 
-      <section
-        id='serviceYouthTherapy'
-        className='px-64 h-[30rem] flex items-center'>
+      <section id='serviceYouthTherapy'>
         <div id='youthTherapy' className='flex items-center  '>
           <div className='flex  flex-1 flex-col'>
             <h2>
@@ -214,9 +208,7 @@ const Expertise = () => {
         </div>
       </section>
 
-      <section
-        id='serviceGriefAndLossTherapy'
-        className='px-64 h-[35rem] flex items-center bg-white'>
+      <section id='serviceGriefAndLossTherapy' className='bg-white'>
         <div id='griefAndLossTherapy' className='flex items-center  '>
           <div className='flex  flex-1 flex-col'>
             <h2>
