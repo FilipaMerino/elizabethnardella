@@ -103,6 +103,34 @@ export default function Home() {
           <p>Babette Rothschild</p>
         </div>
       </section>
+
+      <section id='healthyMindHealthyBody' className='bg-white'>
+        <div className='flex gap-32 items-center'>
+          <div className='flex flex-1 flex-col'>
+            <h2 className='mb-5'>Healthy Mind, Healthy Body</h2>
+            <p className='font-bold mb-5 italic'>
+              Did you know that taking care of our mind can improve your overall
+              well-being?
+            </p>
+            <p className='text-justify'>
+              When you take care of your mind, you will be more equipped to{' '}
+              <strong>handle stress</strong>, make better decisions, and live a
+              more <strong>balanced</strong> lifestyle. A healthy mind is
+              connected to emotional stability, which is vital to boosting your
+              immune system, and increasing vitality levels.
+            </p>
+          </div>
+          <div>
+            <Image
+              src='/nardellaCounselling.jpeg'
+              width={400}
+              height={400}
+              alt='Elizabeth sitting on a counselling chair - Elisabeth Nardella Counselling'
+              className='object-cover object-center rounded-md'
+            />
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
