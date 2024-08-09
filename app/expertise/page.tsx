@@ -9,7 +9,8 @@ const Expertise = () => {
         id='yourJourney'
         className='px-64 flex flex-col justify-center h-[30rem]'>
         <div>
-          <h1 className='text-6xl pb-10 text-[#A94250]'>Your Journey</h1>
+          {/* <h1> THIS NEEDS A SEO TITLE</h1> */}
+          <h2>Your Journey</h2>
           <p className='pb-2'>
             Counselling is a deeply <strong>personal</strong> and{' '}
             <strong>transformative</strong> experience. It's about{' '}
@@ -45,7 +46,7 @@ const Expertise = () => {
         className='px-64 bg-white h-[30rem] flex items-center '>
         <div id='somaticTherapy' className='flex items-center'>
           <div className='flex flex-col jsutify-center  flex-1'>
-            <h2 className='text-5xl pb-3 text-[#A94250] hover:text-[#219C90]'>
+            <h2>
               <a href='/expertise/somatictherapy'>Somatic Therapy</a>
             </h2>
             <h3 className='text-3xl '>Healing through the body</h3>
@@ -84,7 +85,7 @@ const Expertise = () => {
         className='px-64 h-[30rem] flex items-center'>
         <div id='WomensCounselling' className='flex items-center'>
           <div className='flex flex-1'>
-            <h2 className='text-5xl pb-3 text-[#A94250] hover:text-[#219C90]'>
+            <h2>
               {' '}
               <a href='/expertise/womenscounselling'>Women’s Counselling</a>
             </h2>
@@ -129,12 +130,10 @@ const Expertise = () => {
         </div>
       </section>
 
-      <section
-        id='serviceDatingAndRelationships'
-        className='px-64 bg-white h-[30rem] flex items-center'>
+      <section id='serviceDatingAndRelationships' className='px-64 bg-white'>
         <div id='datingAndRelationships' className='flex items-center'>
           <div className='flex  flex-1'>
-            <h2 className='text-5xl pb-3 text-[#A94250] hover:text-[#219C90]'>
+            <h2>
               <a href='/expertise/datingandrelationships'>
                 Dating & Relationships
               </a>
@@ -173,7 +172,7 @@ const Expertise = () => {
         className='px-64 h-[30rem] flex items-center'>
         <div id='youthTherapy' className='flex items-center  '>
           <div className='flex  flex-1 flex-col'>
-            <h2 className='text-5xl pb-3 text-[#A94250] hover:text-[#219C90]'>
+            <h2>
               <a href='/expertise/youth'>Youth +14yrs Therapy</a>
             </h2>
             <p className='pr-40 text-[14px] font-light pt-5 italic'>
@@ -222,7 +221,7 @@ const Expertise = () => {
         className='px-64 h-[35rem] flex items-center bg-white'>
         <div id='griefAndLossTherapy' className='flex items-center  '>
           <div className='flex  flex-1 flex-col'>
-            <h2 className='text-5xl pb-3 text-[#A94250] hover:text-[#219C90]'>
+            <h2>
               <a href='/expertise/griefandloss'>Grief & Loss</a>
             </h2>
           </div>
