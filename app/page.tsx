@@ -92,6 +92,17 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section id='quoteSection'>
+        <div className='flex flex-col items-center justify-center'>
+          <p className='text-[2rem] text-center mb-10'>
+            "By becoming more aware of our bodies and the sensations within
+            them, we can begin to understand the messages they are sending us
+            and take steps towards healing and well-being."
+          </p>
+          <p>Babette Rothschild</p>
+        </div>
+      </section>
     </main>
   );
 }
