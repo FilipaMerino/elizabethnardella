@@ -51,6 +51,15 @@ h2:hover{
   color:#219C90
 }
 
+h3{
+  color:#A94250;
+  font-weight: 500;
+  line-height: 2.25rem;
+  font-size: 22px;
+
+}
+
+
 section{
  display: flex;
  justify-content: center;
