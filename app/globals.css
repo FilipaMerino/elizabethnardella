@@ -52,9 +52,11 @@ h2:hover{
 }
 
 section{
- height: 30rem;
  display: flex;
  justify-content: center;
+ padding: 3rem 16rem;;
+ align-items: center;
+ min-height: 30rem;
 }
 
 
