@@ -41,7 +41,7 @@ export default function Home() {
             href='https://elizabethnardellacounselling.janeapp.com/locations/elizabeth-nardella-counselling/book#staff_member/1'
           />
         </div>
-        <div className='flex-1'>
+        <div className=''>
           {/* here is gonna be a picture of elizabeth */}
           <Image
             alt=''
