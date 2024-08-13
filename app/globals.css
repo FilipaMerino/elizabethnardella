@@ -47,9 +47,9 @@ h2{
 }
 
 
-h2:hover{
+/* h2:hover{
   color:#219C90
-}
+} */
 
 h3{
   color:#A94250;
@@ -69,3 +69,6 @@ section{
 }
 
 
+a:hover{
+  color:#219C90
+}
