@@ -212,7 +212,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='bg-white'>
+      <section id='elizabethUnplugged' className='bg-white'>
         <div className='flex gap-10 items-center'>
           <div>
             <YouTubeEmbed videoid='LlRuSNR-tPk' width={550} />
