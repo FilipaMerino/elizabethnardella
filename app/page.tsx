@@ -264,6 +264,52 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section id='contactForm' className='bg-white'>
+        <div className='flex gap-10 items-center'>
+          <div className='flex-1 lg:mr-18'>
+            <div className='relative'>
+              <h2>Feeling Better Starts with a Single Message</h2>
+              <Image
+                src='/underline.png'
+                width={300}
+                height={300}
+                alt='This is an underlining symbol on the home page of Elizabeth Nardella Counselling Website'
+                className='absolute lg:top-[-30px] lg:left-[10rem]'
+              />
+            </div>
+          </div>
+          <div className='flex-1'>
+            <label>Name</label>
+            <div className='flex gap-5 my-2'>
+              <input
+                type='text'
+                placeholder='First Name'
+                className='input input-bordered w-full'
+              />
+              <input
+                type='text'
+                placeholder='Last Name'
+                className='input input-bordered w-full'
+              />
+            </div>
+            <div>
+              <label>Email</label>
+              <input
+                type='text'
+                placeholder='Email'
+                className='input input-bordered w-full my-2'
+              />
+            </div>
+            <div>
+              <label>Message</label>
+              <textarea className='textarea textarea-bordered w-full my-2'></textarea>
+            </div>
+            <div>
+              <PrimaryButton name='Submit Your Message' href='' />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
