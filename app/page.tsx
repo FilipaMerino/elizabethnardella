@@ -128,7 +128,7 @@ export default function Home() {
               width={400}
               height={400}
               alt='Elizabeth sitting on a counselling chair - Elisabeth Nardella Counselling'
-              className='object-cover object-center rounded-md'
+              className='object-cover object-center'
             />
           </div>
         </div>
@@ -233,13 +233,7 @@ export default function Home() {
         <div className='flex flex-row-reverse gap-10'>
           <div className='flex-1'>
             <Link href='/blog'>
-              <Image
-                src='/blog.jpg'
-                width={500}
-                height={500}
-                alt=''
-                className='rounded-md'
-              />
+              <Image src='/blog.jpg' width={500} height={500} alt='' />
             </Link>
           </div>
           <div className='flex-1'>
