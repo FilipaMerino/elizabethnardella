@@ -76,3 +76,7 @@ p{
 a:hover{
   color:#219C90
 }
+
+img{
+  border-radius: 0.375rem
+}
