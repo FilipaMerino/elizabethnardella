@@ -1,10 +1,12 @@
 import { BottomNavigation } from '../components/bottomNavigation';
 import Image from 'next/image';
 import { PrimaryButton } from '../components/primaryButton';
+import { Banner } from '../components/banner';
 const Consultations = () => {
   return (
     <div>
-      <section id='inPersonAppointments' className='bg-white'>
+      <Banner src='/consultations.png' bannerQuote='Consultations' />
+      <section id='inPersonAppointments'>
         <div className='flex-1 flex justify-center'>
           <Image
             src='/inPersonAppointments-ElizabethNardellaCounselling.png'
@@ -33,7 +35,7 @@ const Consultations = () => {
         </div>
       </section>
 
-      <section id='virtualAppointments' className='flex-row-reverse'>
+      <section id='virtualAppointments' className='flex-row-reverse bg-white'>
         <div className='flex-1 flex justify-center'>
           <Image
             src='/virtualAppointments-ElizabethNardellaCounselling.png'
