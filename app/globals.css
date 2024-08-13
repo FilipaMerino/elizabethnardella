@@ -46,10 +46,12 @@ h2{
   line-height: 1;
 }
 
-
-/* h2:hover{
-  color:#219C90
-} */
+h4{
+  font-size:30px;
+  line-height:36px;
+  font-weight: 300;
+  margin-bottom: 2.5rem
+}
 
 h3{
   color:#A94250;
