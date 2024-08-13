@@ -220,11 +220,46 @@ export default function Home() {
           <div>
             <h2>Elizabeth Unplugged</h2>
             <h4>A Look Inside Elizabeth's World</h4>
-            <p>
+            <p className='text-justify'>
               I’m thrilled to share a bit of <strong>my world</strong> with you.
               In this video, I’ll take you on a journey through my passion for
               counselling and my unique approach to helping people achieve
               emotional wellness and <strong>personal growth</strong>.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id='blog'>
+        <div className='flex flex-row-reverse gap-10'>
+          <div className='flex-1'>
+            <Link href='/blog'>
+              <Image
+                src='/blog.jpg'
+                width={500}
+                height={500}
+                alt=''
+                className='rounded-md'
+              />
+            </Link>
+          </div>
+          <div className='flex-1'>
+            <Link href='/blog'>
+              <h2 className='hover:text-[#219C90]'>
+                Connecting Through Stories
+              </h2>
+            </Link>
+            <p className='font-bold italic my-5'>
+              Are you curious about the thoughts, stories, and experiences that
+              shape Elizabeth Nardella Counselling?
+            </p>
+            <p className='text-justify'>
+              Take a look at our blog, where we share the heart and soul of what
+              we do. Here, you will find personal stories, discussions on
+              important topics, informational content, and personal reflections.
+              Let’s explore, learn, and grow together!
+            </p>
+            <p className='mt-5'>
+              Take a peek into our world and see what inspires us every day.
             </p>
           </div>
         </div>
