@@ -46,7 +46,7 @@ const About = () => {
                 <div className="flex items-center p-10 g-10 pl-64 pr-64">
                     <div className="flex flex-col justify-center p-10">
                         <h2>Elizabeth Unplugged</h2>
-                        <h3 className="text-3xl font-light mb-10">A Look Inside Elizabeth's World</h3>
+                        <h4>A Look Inside Elizabeth's World</h4>
                         <span className="mr-60">
                             I’m thrilled to share a bit of my world with you.
                             In this video, I’ll take you on a journey through my passion
