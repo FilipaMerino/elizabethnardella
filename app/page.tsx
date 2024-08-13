@@ -136,7 +136,7 @@ export default function Home() {
       <section id='howWeCanHelpYou'>
         <div className='flex flex-col justify-center items-center'>
           <h2>How We Can Help You</h2>
-          <div className='flex gap-16 mt-10 text-center'>
+          <div className='flex gap-24 mt-10 text-center'>
             <div className='flex-1 flex flex-col items-center'>
               <Link href='/expertise/somatictherapy'>
                 <Image
