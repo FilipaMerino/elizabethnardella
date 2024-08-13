@@ -114,7 +114,7 @@ export default function Home() {
               Did you know that taking care of our mind can improve your overall
               well-being?
             </p>
-            <p className='text-justify'>
+            <p>
               When you take care of your mind, you will be more equipped to{' '}
               <strong>handle stress</strong>, make better decisions, and live a
               more <strong>balanced</strong> lifestyle. A healthy mind is
@@ -220,7 +220,7 @@ export default function Home() {
           <div>
             <h2>Elizabeth Unplugged</h2>
             <h4>A Look Inside Elizabeth's World</h4>
-            <p className='text-justify'>
+            <p>
               I’m thrilled to share a bit of <strong>my world</strong> with you.
               In this video, I’ll take you on a journey through my passion for
               counselling and my unique approach to helping people achieve
@@ -252,7 +252,7 @@ export default function Home() {
               Are you curious about the thoughts, stories, and experiences that
               shape Elizabeth Nardella Counselling?
             </p>
-            <p className='text-justify'>
+            <p>
               Take a look at our blog, where we share the heart and soul of what
               we do. Here, you will find personal stories, discussions on
               important topics, informational content, and personal reflections.
