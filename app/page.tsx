@@ -163,7 +163,7 @@ export default function Home() {
                 />
               </Link>
               <Link href='/expertise/womenscounselling'>
-                <p>Women's Counselling</p>
+                <p className='text-center'>Women's Counselling</p>
               </Link>
             </div>
             <div className='flex-1 flex flex-col items-center'>
@@ -177,7 +177,7 @@ export default function Home() {
                 />
               </Link>
               <Link href='/expertise/datingandrelationships'>
-                <p>Dating & Relationships</p>
+                <p className='text-center'>Dating & Relationships</p>
               </Link>
             </div>
             <div className='flex-1 flex flex-col items-center'>
@@ -204,8 +204,8 @@ export default function Home() {
                   className='mb-5'
                 />
               </Link>
-              <Link href='/expertise/griefandloss'>
-                <p>Grief & Loss</p>
+              <Link href='/expertise/griefandloss' className='text-center'>
+                <p className='text-center'>Grief & Loss</p>
               </Link>
             </div>
           </div>
