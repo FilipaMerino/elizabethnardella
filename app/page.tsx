@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Banner } from './components/banner';
 import { PrimaryButton } from './components/primaryButton';
 import Link from 'next/link';
+import { YouTubeEmbed } from '@next/third-parties/google';
 
 export default function Home() {
   return (
@@ -207,6 +208,24 @@ export default function Home() {
                 <p>Grief & Loss</p>
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='bg-white'>
+        <div className='flex gap-10 items-center'>
+          <div>
+            <YouTubeEmbed videoid='LlRuSNR-tPk' width={550} />
+          </div>
+          <div>
+            <h2>Elizabeth Unplugged</h2>
+            <h4>A Look Inside Elizabeth's World</h4>
+            <p>
+              I’m thrilled to share a bit of <strong>my world</strong> with you.
+              In this video, I’ll take you on a journey through my passion for
+              counselling and my unique approach to helping people achieve
+              emotional wellness and <strong>personal growth</strong>.
+            </p>
           </div>
         </div>
       </section>
