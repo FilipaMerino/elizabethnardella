@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { Banner } from './components/banner';
 import { PrimaryButton } from './components/primaryButton';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -128,6 +129,84 @@ export default function Home() {
               alt='Elizabeth sitting on a counselling chair - Elisabeth Nardella Counselling'
               className='object-cover object-center rounded-md'
             />
+          </div>
+        </div>
+      </section>
+
+      <section id='howWeCanHelpYou'>
+        <div className='flex flex-col justify-center items-center'>
+          <h2>How We Can Help You</h2>
+          <div className='flex gap-16 mt-10 text-center'>
+            <div className='flex-1 flex flex-col items-center'>
+              <Link href='/expertise/somatictherapy'>
+                <Image
+                  src='/somaticTherapy.png'
+                  alt=''
+                  width={300}
+                  height={300}
+                  className='mb-5'
+                />
+              </Link>
+              <Link href='/expertise/somatictherapy'>
+                <p>Somatic Therapy</p>
+              </Link>
+            </div>
+            <div className='flex-1 flex flex-col items-center'>
+              <Link href='/expertise/womenscounselling'>
+                <Image
+                  src='/womensCounselling.png'
+                  alt=''
+                  width={300}
+                  height={300}
+                  className='mb-5'
+                />
+              </Link>
+              <Link href='/expertise/womenscounselling'>
+                <p>Women's Counselling</p>
+              </Link>
+            </div>
+            <div className='flex-1 flex flex-col items-center'>
+              <Link href='/expertise/datingandrelationships'>
+                <Image
+                  src='/datingAndRelationships.png'
+                  alt=''
+                  width={300}
+                  height={300}
+                  className='mb-5'
+                />
+              </Link>
+              <Link href='/expertise/datingandrelationships'>
+                <p>Dating & Relationships</p>
+              </Link>
+            </div>
+            <div className='flex-1 flex flex-col items-center'>
+              <Link href='/expertise/youth'>
+                <Image
+                  src='/youth+14Therapy.png'
+                  alt=''
+                  width={300}
+                  height={300}
+                  className='mb-5'
+                />
+              </Link>
+              <Link href='/expertise/youth'>
+                <p>Youth +14Therapy</p>
+              </Link>
+            </div>
+            <div className='flex-1 flex flex-col items-center'>
+              <Link href='/expertise/griefandloss'>
+                <Image
+                  src='/griefAndLossTherapy.png'
+                  alt=''
+                  width={300}
+                  height={300}
+                  className='mb-5'
+                />
+              </Link>
+              <Link href='/expertise/griefandloss'>
+                <p>Grief & Loss</p>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
