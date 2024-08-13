@@ -6,7 +6,7 @@ const Resources = () => {
     <div>
       <section
         id='definingTheFutureOfGriefPsychologyWithLove-ElizabethNardellaCounselling'
-        className='flex-row-reverse gap-16'>
+        className='flex-row-reverse gap-16 bg-white'>
         <div>
           <YouTubeEmbed videoid='KEexLVcUpwM' width={550} />
         </div>
@@ -29,7 +29,7 @@ const Resources = () => {
       </section>
       <section
         id='narrativeTherapy-ElizabethNardellaCounselling'
-        className='bg-white gap-16'>
+        className='gap-16'>
         <div>
           <YouTubeEmbed videoid='CJ0WNIQonog' width={550} />
         </div>
@@ -51,7 +51,7 @@ const Resources = () => {
       </section>
       <section
         id='narrativeTherapy-MaggieCarey-ElizabethNardellaCounselling'
-        className='flex-row-reverse gap-16'>
+        className='flex-row-reverse gap-16 bg-white'>
         <div>
           <YouTubeEmbed videoid='fUaNW4wFww8' width={550} />
         </div>
@@ -73,7 +73,7 @@ const Resources = () => {
           </p>
         </div>
       </section>
-      <section id='helpfulDocuments' className='bg-white'>
+      <section id='helpfulDocuments'>
         <div className='flex flex-col items-center'>
           <h2 className='my-5'>Helpful Documents</h2>
           <Link href='https://6eea2105-431f-4858-813b-d36f0a45f2be.filesusr.com/ugd/cddf0d_75cf9d73cf5d404baf0d1ab588fe25ec.pdf'>
