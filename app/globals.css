@@ -73,8 +73,14 @@ p{
   text-align: justify;
 }
 
-a:hover{
+a{
   color:#219C90;
+  font-weight:500;
+}
+
+a:hover{
+  
+  color:#A94250;
 }
 
 img{
