@@ -215,7 +215,11 @@ export default function Home() {
       <section id='elizabethUnplugged' className='bg-white'>
         <div className='flex gap-10 items-center'>
           <div>
-            <YouTubeEmbed videoid='LlRuSNR-tPk' width={550} />
+            <YouTubeEmbed
+              videoid='LlRuSNR-tPk'
+              width={550}
+              style="background-image: url('/counsellorAndDogTherapist-ElizabethNardellaCounselling.jpg');"
+            />
           </div>
           <div>
             <h2>Elizabeth Unplugged</h2>
