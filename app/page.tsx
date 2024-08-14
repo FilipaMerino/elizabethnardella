@@ -98,7 +98,7 @@ export default function Home() {
 
 			<section id='quoteSection'>
 				<div className='flex flex-col items-center justify-center'>
-					<p className='text-[2rem] text-center mb-10'>
+					<p className='text-[2rem] text-center mb-10 italic'>
 						"By becoming more aware of our bodies and the sensations within
 						them, we can begin to understand the messages they are sending us
 						and take steps towards healing and well-being."
