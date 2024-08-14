@@ -40,12 +40,15 @@ const About = () => {
 								counsellor, with a passion for finding new and creative ways to
 								help people heal.
 							</p>
-							<p className='italic font-bold'>
+							<p className='italic font-bold my-5'>
 								What else can I tell you about myself?
 							</p>
 							<p>
-								I am deeply committed to supporting the LGBTQ2SAI+ community,
-								and when I am not in counselling mode, you will often find me
+								I am deeply committed to supporting the{' '}
+								<Link href='' className='text-[#A94250] font-bold'>
+									LGBTQ2SAI+ community
+								</Link>
+								, and when I am not in counselling mode, you will often find me
 								sailing off to new adventures and exploring different cultures.
 								And of course, I am totally crazy about Lyon, my adorable pup
 								who keeps me grounded and brings so much joy to my life.
@@ -54,57 +57,34 @@ const About = () => {
 					</div>
 				</section>
 
-
-
-
-
-
-
-
-
-
-				<div className='flex g-10'>
-					{/* IMAGE */}
-
-					{/* TEXT */}
-					<section className='flex flex-col'>
-						<div id='meetElizabeth' className='flex flex-col justify-center'>
-							<div>
-								<div className='flex flex-col'>
-									<span>
-										<strong>What else can I tell you about myself?</strong>{' '}
-										<br />I am deeply committed to supporting the LGBTQ2SAI+
-										community, and when I am not in counselling mode, you will
-										often find me sailing off to new adventures and exploring
-										different cultures. And of course, I am totally crazy about
-										Lyon, my adorable pup who keeps me grounded and brings so
-										much joy to my life.
-									</span>
-								</div>
-							</div>
+				<section id='elizabethUnplugged-ElizabethNardellaCounselling'>
+					<div className='flex flex-row-reverse gap-16'>
+						<div>
+							<YouTubeEmbed
+								videoid='LlRuSNR-tPk'
+								width={550}
+								style="background-image: url('/counsellorAndDogTherapist-ElizabethNardellaCounselling.jpg'); border-radius: 0.375rem;"
+							/>
 						</div>
-
-						<div className='flex items-center g-10 '>
-							<div className='flex flex-col justify-center p-10'>
-								<h2>Elizabeth Unplugged</h2>
-								<h4>A Look Inside Elizabeth's World</h4>
-								<span className=''>
-									I’m thrilled to share a bit of my world with you. In this
-									video, I’ll take you on a journey through my passion for
-									counselling and my unique approach to helping people achieve
-									emotional wellness and personal growth.
-								</span>
-							</div>
-							<div>
-								<YouTubeEmbed
-									videoid='LlRuSNR-tPk'
-									width={550}
-									style="background-image: url('/counsellorAndDogTherapist-ElizabethNardellaCounselling.jpg');"
-								/>
-							</div>
+						<div>
+							<h2>Elizabeth Unplugged</h2>
+							<h4>A Look Inside Elizabeth's World</h4>
+							<p>
+								I’m thrilled to share a bit of{' '}
+								<Link href='' className='text-[#A94250] font-bold'>
+									my world
+								</Link>{' '}
+								with you. In this video, I’ll take you on a journey through my
+								passion for counselling and my unique approach to helping people
+								achieve emotional wellness and{' '}
+								<Link href='' className='text-[#A94250] font-bold'>
+									personal growth
+								</Link>
+								.
+							</p>
 						</div>
-					</section>
-				</div>
+					</div>
+				</section>
 
 				{/* LYON */}
 				<section id='meetLyon' className='bg-white'>
