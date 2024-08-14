@@ -3,6 +3,7 @@ import { Banner } from './components/banner';
 import { PrimaryButton } from './components/primaryButton';
 import Link from 'next/link';
 import { YouTubeEmbed } from '@next/third-parties/google';
+import { BottomNavigation } from './components/bottomNavigation';
 
 export default function Home() {
 	return (
@@ -308,6 +309,7 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
+			<BottomNavigation />
 		</main>
 	);
 }
