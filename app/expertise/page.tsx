@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Banner } from '../components/banner';
 import { PrimaryButton } from '../components/primaryButton';
+import { BottomNavigation } from '../components/bottomNavigation';
 
 const Expertise = () => {
 	return (
@@ -221,7 +222,7 @@ const Expertise = () => {
 
 			<section id='serviceGriefAndLossTherapy' className='bg-white'>
 				<div className='flex items-center  '>
-					<div className='flex  flex-1 flex-col'>
+					<div className='flex flex-1 flex-col'>
 						<h2>
 							<Link href='/expertise/griefandloss'>Grief & Loss</Link>
 						</h2>
@@ -263,6 +264,7 @@ const Expertise = () => {
 					</div>
 				</div>
 			</section>
+			<BottomNavigation />
 		</div>
 	);
 };
