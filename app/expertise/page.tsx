@@ -131,9 +131,9 @@ const Expertise = () => {
 			</section>
 
 			<section id='serviceDatingAndRelationships' className='bg-white'>
-				<div id='datingAndRelationships' className='flex items-center'>
+				<div className='flex items-center'>
 					<div className='flex flex-1'>
-						<Link href='/expertise/womenscounselling'>
+						<Link href='expertise/datingandrelationships'>
 							<div className='flex flex-col group'>
 								<h2 className='group-hover:text-[#219C90]'>Dating &</h2>
 								<h2 className='group-hover:text-[#219C90]'>Relationships</h2>
@@ -171,9 +171,13 @@ const Expertise = () => {
 			<section id='serviceYouthTherapy'>
 				<div id='youthTherapy' className='flex items-center  '>
 					<div className='flex  flex-1 flex-col'>
-						<h2>
-							<a href='/expertise/youth'>Youth +14yrs Therapy</a>
-						</h2>
+						<Link href='/expertise/youth'>
+							<div className='flex flex-col group'>
+								<h2 className='group-hover:text-[#219C90]'>Youth</h2>
+								<h2 className='group-hover:text-[#219C90]'>+14yrs Therapy</h2>
+							</div>
+						</Link>
+
 						<p className='pr-40 text-[14px] font-light pt-5 italic'>
 							Please note, that Elizabeth <strong>does not</strong> work with
 							families that are actively in court or families going through the
