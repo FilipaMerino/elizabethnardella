@@ -2,6 +2,7 @@ import { BottomNavigation } from '../components/bottomNavigation';
 import Image from 'next/image';
 import { PrimaryButton } from '../components/primaryButton';
 import { Banner } from '../components/banner';
+import Link from 'next/link';
 const Consultations = () => {
 	return (
 		<div>
@@ -9,12 +10,14 @@ const Consultations = () => {
 
 			<section id='inPersonAppointments'>
 				<div className='flex-1 flex transition-transform duration-500 ease-in-out transform hover:scale-110'>
-					<Image
-						src='/inPersonAppointments-ElizabethNardellaCounselling.png'
-						width={500}
-						height={500}
-						alt='inPersonAppontments-Elizabeth-Nardella-Conselling'
-					/>
+					<Link href='/consultations/inPersonAppointments'>
+						<Image
+							src='/inPersonAppointments-ElizabethNardellaCounselling.png'
+							width={500}
+							height={500}
+							alt='inPersonAppontments-Elizabeth-Nardella-Conselling'
+						/>
+					</Link>
 				</div>
 				<div className='flex-1'>
 					<h2>In-Person Appointments</h2>
@@ -38,12 +41,14 @@ const Consultations = () => {
 
 			<section id='virtualAppointments' className='flex-row-reverse bg-white'>
 				<div className='flex-1 flex justify-center transition-transform duration-500 ease-in-out transform hover:scale-110'>
-					<Image
-						src='/virtualAppointments-ElizabethNardellaCounselling.png'
-						width={500}
-						height={500}
-						alt='inPersonAppontments-Elizabeth-Nardella-Conselling'
-					/>
+					<Link href='/consultations/virtualAppointments'>
+						<Image
+							src='/virtualAppointments-ElizabethNardellaCounselling.png'
+							width={500}
+							height={500}
+							alt='inPersonAppontments-Elizabeth-Nardella-Conselling'
+						/>
+					</Link>
 				</div>
 				<div className='flex-1'>
 					<h2>Virtual Appointments</h2>
