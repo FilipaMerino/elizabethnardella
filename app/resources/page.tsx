@@ -26,9 +26,13 @@ const Resources = () => {
 						death, challenging conventional grief psychology.
 					</p>
 					<p>
-						In this talk, Dr. Lorraine Hedtke explores how stories of love
-						transcend death, creating powerful connections that live on long
-						after our loved one is no longer alive.
+						In this talk,{' '}
+						<Link href='https://rememberingpractices.com/'>
+							Dr. Lorraine Hedtke
+						</Link>{' '}
+						explores how stories of love <strong>transcend death</strong>,
+						creating powerful connections that live on long after our loved one
+						is no longer alive.
 					</p>
 				</div>
 			</section>
