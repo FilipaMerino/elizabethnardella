@@ -87,9 +87,10 @@ const About = () => {
 				</section>
 
 				{/* LYON */}
-				<section id='meetLyon' className='bg-white'>
-					<div className='flex g-10 '>
-						<div className='flex-shrink-0 transition-transform duration-500 ease-in-out transform hover:scale-110'>
+
+				<section className='bg-white'>
+					<div className='flex items-center'>
+						<div className='flex-1 transition-transform duration-500 ease-in-out transform hover:scale-110'>
 							<Link href='/about/lyon'>
 								<Image
 									className='rounded-md'
@@ -100,20 +101,22 @@ const About = () => {
 								/>
 							</Link>
 						</div>
-						<div className='flex flex-col justify-center p-10'>
+						<div className='flex-1'>
 							<h2>
 								<Link href='/about/lyon'>Meet Lyon</Link>
 							</h2>
-							<span className='mr-40'>
+
+							<p>
 								Think of Lyon as your furry friend, available to wag his tail
 								and bring a calming, fun presence to your sessions, especially
 								when talking about more difficult topics. Not a fan of dogs? No
 								worries - Lyon loves to take a day off.
-							</span>
+							</p>
 						</div>
 					</div>
 				</section>
 			</div>
+
 			<div>
 				<BottomNavigation />
 			</div>
