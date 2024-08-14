@@ -220,10 +220,10 @@ const Expertise = () => {
 			</section>
 
 			<section id='serviceGriefAndLossTherapy' className='bg-white'>
-				<div id='griefAndLossTherapy' className='flex items-center  '>
+				<div className='flex items-center  '>
 					<div className='flex  flex-1 flex-col'>
 						<h2>
-							<a href='/expertise/griefandloss'>Grief & Loss</a>
+							<Link href='/expertise/griefandloss'>Grief & Loss</Link>
 						</h2>
 					</div>
 
