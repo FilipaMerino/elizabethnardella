@@ -133,11 +133,12 @@ const Expertise = () => {
 			<section id='serviceDatingAndRelationships' className='bg-white'>
 				<div id='datingAndRelationships' className='flex items-center'>
 					<div className='flex flex-1'>
-						<h2>
-							<a href='/expertise/datingandrelationships'>
-								Dating & Relationships
-							</a>
-						</h2>
+						<Link href='/expertise/womenscounselling'>
+							<div className='flex flex-col group'>
+								<h2 className='group-hover:text-[#219C90]'>Dating &</h2>
+								<h2 className='group-hover:text-[#219C90]'>Relationships</h2>
+							</div>
+						</Link>
 					</div>
 					<div className='flex-1 flex flex-col justify-center'>
 						<p className='pb-3'>
